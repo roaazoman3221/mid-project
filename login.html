@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./assets/imgs/LOGO.png" alt="EduPress" width="166px" height="30px">
+            
+            <ul class="nav-list">
+                <li class="nav-home nav-li home"><a href="./index.html" target="_blank" class="nav-li home">
+                    Home
+                </a></li>
+                <li class="nav-courses nav-li courses"><a href="./courses.html" target="_blank" class="nav-li courses">
+                    Courses
+                </a></li>
+                <li class="nav-blog nav-li blog"><a href="./blog.html" target="_blank" class="nav-li blog">
+                    Blog
+                </a></li>
+                <li class="nav-page nav-li page"><a href="#" target="_blank" class="nav-li page">
+                    Page
+                </a> 
+                    <button class="page"><img src="./assets/imgs/Icon.png" alt=""></button>
+                </li>
+                <li class="nav-theme nav-li theme"><a href="#" target="_blank" class="nav-li theme">
+                    Premium Theme
+                </a></li>
+            </ul>
+
+            <div class="login">
+                <a href="./login.html">
+                    <button class="login-btn one" >Login</button>
+                </a>
+                <p class="login-slash">/</p>
+                <a href="./login.html">
+                    <button class="login-btn two">Register</button>
+                </a>
+                <button class="login-btn glass">
+                    <div class="circle">
+                        <img src="./assets/imgs/magnifying-glass-light-full.svg" alt="" width="20px" height="20px">
+                    </div>
+                </button>
+            </div>
+
+            <button class="bars"><img src="./assets/imgs/bars-solid-full black.svg" alt="" width="24px" height="24px"></button>
+
+        </nav>
+        <div class="hero">
+                <div class="path">
+                    <div class="login-path">
+                        <p class="homepage">Homepage</p>
+                        <i class="fa-solid fa-angle-right"></i>
+                        <p class="login">Login / Register</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="login-register">
+                <div class="login-content">
+                    <h2 class="login-title">Login</h2>
+                    <div class="login-form">
+                        <form action="">
+                            <input type="email" name="email" id="email" placeholder="Email or username*" required>
+                            <input type="password" name="password" id="password" placeholder="Password*" required>                            
+                            <div class="checkbox">
+                                <input type="checkbox" name="remember-me" id="remember-me">
+                                <label for="remember-me">Remember me</label>
+                            </div>
+                            <button class="login-btn">Login</button>
+                            <a href="#" class="lost-password">Lost your password?</a>
+                        </form>
+                    </div>
+                </div>
+                <div class="register-content">
+                    <h2 class="register-title">Register</h2>
+                    <div class="register-form">
+                        <input type="email" name="email" id="email" placeholder="Email*" required>
+                        <input type="text" name="username" id="username" placeholder="Username*" required>
+                        <input type="password" name="password" id="password" placeholder="Password*" required>      
+                        <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password*" required>    
+                        <button class="register-btn">Register</button>
+                    </div>
+                </div>
+
+            </div>
+    </header>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo-info">
+                <img src="./assets/imgs/LOGO.png" alt="">
+                <p class="logo-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="get-help">
+                <h4 class="help-title">GET HELP</h4>
+                <ul class="help-list">
+                    <li><a href="#" class="footer-a">Contact Us</a></li>
+                    <li><a href="#" class="footer-a">Latest Articles</a></li>
+                    <li><a href="#" class="footer-a">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="programs">
+                <h4 class="program-title">PROGRAMS</h4>
+                <ul class="program-list">
+                    <li><a href="#" class="footer-a">Art & Design</a></li>
+                    <li><a href="#" class="business footer-a">Business</a></li>
+                    <li><a href="#" class="footer-a">IT & Software</a></li>
+                    <li><a href="#" class="footer-a">Languages</a></li>
+                    <li><a href="#" class="footer-a">Programming</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h4 class="contact-title">CONTACT US</h4>
+                <p class="address">Address: 2321 New Design Str, Lorem Ipsum10 Hudson Yards, USA</p>
+                <p class="tel">Tel: + (123) 2500-567-8988 </p>
+                <p class="mail">Mail: supportlms@gmail.com</p>
+                <div class="social-media">
+                    <a href="#" class="social"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a href="#" class="social"><img src="./assets/imgs/x-twitter-brands-solid-fullorange.svg" alt=""></a>
+                    <a href="#" class="social"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="rights">Copyright © 2024 LearnPress LMS | Powered by ThimPress</p>
+        </div>
+    </footer>
+</body>
+</html>
